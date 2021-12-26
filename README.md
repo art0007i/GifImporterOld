@@ -1,5 +1,7 @@
 # GifImporter
 
+This is my fork of the gif importer, it tries to fit the sprite sheets into a square resolution, but it will sometimes create redundant empty frames at the end of the gif.
+
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that allows you to essentially import gif images. It converts gifs to a spritesheet then adds the appropriate components.
 
 ## Installation
