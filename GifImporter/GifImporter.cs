@@ -93,7 +93,7 @@ namespace GifImporter
                         float ratio = (float)frameWidth / frameHeight;
                         var cols = MathX.Sqrt(frameCount / ratio);
                         gifCols = MathX.RoundToInt(cols);
-                        gifRows = MathX.CeilToInt(frameCount / gifCols);
+                        gifRows = MathX.CeilToInt((double) frameCount / gifCols);
 
                         // Create a new image
                         spriteSheet = new Bitmap(frameWidth * gifCols, frameHeight * gifRows);
